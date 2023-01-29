@@ -1,0 +1,100 @@
+body
+{ 
+    font-family: 'Rubik', sans-serif;
+    background-color: #efefef;
+    width: 940px;
+    margin: 0px auto;
+}
+header
+{
+    width: 100%;
+}
+.logo
+{
+    width: 15%;
+    margin-left: 10px;
+    float: left;
+}
+.navegation
+{
+    width: 80%;
+    padding: 5% 0 5% 0;
+    float: right;
+    text-align: center;
+}
+.navegation a
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+.navegation a:hover
+{
+    color: #ffaa00;
+}
+.banner
+{
+    width: 100%;
+}
+main
+{
+    background: linear-gradient(#efefef,#888888); 
+    width: 100%;
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+main h2
+{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+    color: #000000;
+}
+main p
+{
+    margin: 5px 10% 20px 10%;
+}
+.projects a
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+.projects a:hover
+{
+    color: #ffaa00;
+}
+.items
+{
+    margin: 0px 5px;
+}
+.items:before
+{
+    content: "✵";
+}
+footer
+{
+    background-color: #888888;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+.networks li
+{
+    display: inline;
+}
+.links
+{
+    width: 5%;
+    margin: 10px 10px;
+}
+@media screen and (max-width:480px)
+{
+    body
+    {
+        width: 480px;
+    }
+}
