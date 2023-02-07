@@ -1,0 +1,39 @@
+.banner
+{
+    width: 100%;
+}
+main
+{
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+main h2
+{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+    color: #000000;
+}
+main p
+{
+    margin: 5px 10% 20px 10%;
+}
+.projects a
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+.projects a:hover
+{
+    color: #ffaa00;
+}
+.items
+{
+    margin: 0px 5px;
+}
+.items:before
+{
+    content: "✵";
+}
